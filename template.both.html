@@ -16,7 +16,7 @@
 				ready: function(event) {
 					$(this).jPlayer('setMedia', {
 						mp3: 'http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3',
-						ogv: 'http://www.jplayer.org/audio/ogv/Miaow-07-Bubble.ogv'
+						oga: 'http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg'
 					});
 				},
 				play: function() {
@@ -24,7 +24,7 @@
 				},
 				cssSelectorAncestor: '#jp_gui_audio_1',
 				swfPath: 'lib',
-				supplied: 'mp3',
+				supplied: 'oga, mp3',
 				smoothPlayBar: true,
 				keyEnabled: true,
 				wmode: 'window'
@@ -35,7 +35,8 @@
 				ready: function(event) {
 					$(this).jPlayer('setMedia', {
 						m4v: 'http://jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v',
-						webm: 'http://jplayer.org/video/webm/Big_Buck_Bunny_Trailer.webm'
+						webmv: 'http://jplayer.org/video/webm/Big_Buck_Bunny_Trailer.webm',
+						poster: 'http://jplayer.org/video/poster/Big_Buck_Bunny_Trailer_480x270.png'
 					});
 				},
 				play: function() {
